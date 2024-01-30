@@ -1,0 +1,88 @@
+@media (min-width: 768px) {
+    header img {
+        margin: 40px 0 40px 40px;
+    }
+
+    .area_texto {
+        margin-left: 40px;
+    }
+
+    .atencao {
+        margin-left: 40px;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 4 40px;
+    }
+
+    .btn_criptografar,
+    .btn_descriptografar {
+        width: 350px;
+        font-size: 24px;
+    }
+
+    .resultado_mensagem {
+        font-size: 32px;
+    }
+
+    .resultado_texto {
+        font-size: 20px;
+    }
+
+
+
+}
+
+@media (min-width: 1281px) {
+
+    body {
+        display: flex;
+        gap: 100px;
+    }
+
+    .area_texto {
+        width: 600px;
+        margin-top: 150px;
+    }
+
+    .atencao_botoes {
+        margin-top: 50px;
+    }
+
+    .atencao {
+        font-size: 16px;
+    }
+
+    .btn_criptografar,
+    .btn_descriptografar {
+        width: 290px;
+        font-size: 16px;
+    }
+
+    .resultado {
+        width: 400px;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+    }
+
+    .resultado_mensagem {
+        font-size: 24px;
+    }
+
+    .resultado_texto {
+        font-size: 16px;
+    }
+
+    .imagem {
+        display: block;
+    }
+
+    .resultado_criptografado {
+        font-size: 24px;
+    }
+}
