@@ -1,14 +1,14 @@
 @media (min-width: 768px) {
     header img {
-        margin: 40px 0 40px 40px;
+        margin: 2.5rem 0 2.5rem 2.5rem;
     }
 
     .area_texto {
-        margin-left: 40px;
+        margin-left: 2.5rem;
     }
 
     .atencao {
-        margin-left: 40px;
+        margin-left: 2.5rem;
     }
 
     .botoes {
@@ -16,24 +16,28 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        margin-left: 4 40px;
+        margin-left: 2.5rem;
     }
 
     .btn_criptografar,
     .btn_descriptografar {
-        width: 350px;
-        font-size: 24px;
+        width: 21.8rem;
+        font-size: 1.5rem;
     }
 
     .resultado_mensagem {
-        font-size: 32px;
+        font-size: 2rem;
     }
 
     .resultado_texto {
-        font-size: 20px;
+        font-size: 1.25rem;
     }
 
-
+    .resultado_criptografado {
+        width: 33rem;
+        font-size: 2rem;
+        overflow-wrap: break-word;
+    }
 
 }
 
@@ -41,48 +45,58 @@
 
     body {
         display: flex;
-        gap: 100px;
+        gap: 6.25rem;
     }
 
     .area_texto {
-        width: 600px;
-        margin-top: 150px;
+        width: 37.5rem;
+        margin-top: 9.3rem;
+        margin-bottom: 1.25rem;
     }
 
     .atencao_botoes {
-        margin-top: 50px;
+        margin-top: 1.25rem;
     }
 
     .atencao {
-        font-size: 16px;
+        margin-bottom: 1rem;
+    }
+
+    .atencao {
+        font-size: 1rem;
     }
 
     .btn_criptografar,
     .btn_descriptografar {
-        width: 290px;
-        font-size: 16px;
+        width: 18.1rem;
+        font-size: 1rem;
     }
 
     .resultado {
-        width: 400px;
+        width: 25rem;
         display: flex;
-        flex-direction: column-reverse;
-        justify-content: flex-end;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 1.25rem;
     }
 
     .resultado_mensagem {
-        font-size: 24px;
+        font-size: 1.5rem;
     }
 
     .resultado_texto {
-        font-size: 16px;
+        font-size: 1rem;
     }
 
     .imagem {
         display: block;
+        width: 18.7rem;
     }
 
     .resultado_criptografado {
-        font-size: 24px;
+        width: 300px;
+        overflow-wrap: break-word;
+        font-size: 1.5rem;
     }
 }
